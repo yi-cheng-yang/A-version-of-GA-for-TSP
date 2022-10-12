@@ -36,25 +36,6 @@
                         
                         path = cpool;
                         objv = cobj;
-                        // i2d temp;
-                        // temp.clear();
-                        // temp.insert(temp.begin(), path.begin(), path.end());
-                        // temp.insert(temp.end(), cpool.begin(), cpool.end());
-                        
-                        // d1d to;
-                        // to.clear();
-                        // to.insert(to.begin(), objv.begin(), objv.end());
-                        // to.insert(to.end(), cobj.begin(), cobj.end());
-                        
-                        // QS(temp, to, 0, Nums_Point * 2 - 1);
-                        // for(int j = (2 * pop - 1); j > (pop - 1); --j){
-                            
-                        //     temp.pop_back();
-                        //     to.pop_back();
-                        // }
-                        
-                        // path = temp;
-                        // objv = to;
                         pop = (1 - (double)NFE / Nums_Evaluation) * (population - 30) + 30;
                         cpool.clear();
                         cpool.resize(pop, i1d(Nums_Point, 0));
